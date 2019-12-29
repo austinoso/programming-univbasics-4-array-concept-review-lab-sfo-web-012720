@@ -23,7 +23,7 @@ lowest_num = 0
 
   array.length.times { |index|
     if array[index] < highestNum
-      highestNum = array[index]
+      lowest_numNum = array[index]
     end
   }
   highestNum
