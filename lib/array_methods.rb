@@ -11,7 +11,7 @@ def find_max_value(array)
   highest_num = 0
 
   array.length.times { |index|
-    if array[index] > highestNum
+    if array[index] > highest_num
       highest_num = array[index]
     end
   }
@@ -22,7 +22,7 @@ def find_min_value(array)
 lowest_num = 0
 
   array.length.times { |index|
-    if array[index] < highestNum
+    if array[index] < lowest_num
       lowest_num = array[index]
     end
   }
