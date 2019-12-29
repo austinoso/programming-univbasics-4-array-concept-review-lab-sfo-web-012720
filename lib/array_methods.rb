@@ -26,5 +26,5 @@ lowest_num = 0
       lowest_num = array[index]
     end
   }
-  highestNum
+  lowest_num
 end
